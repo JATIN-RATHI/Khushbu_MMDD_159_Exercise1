@@ -1,0 +1,176 @@
+html {
+    font-family: 'Raleway', sans-serif;
+    background-color: #ed1e79;
+}
+
+body {
+    background-color: #ed1e79;
+    background-attachment: fixed;
+    background-repeat: repeat;
+    text-align: center;
+    margin: 0;
+    border:none;
+}
+
+h2 {
+    font-size:42pt;
+}
+
+p {
+    font-size:24pt;
+}
+.container {
+    width: 99%;
+    margin: auto;
+    border-left: none;
+    background: #ed1e79;
+}
+/**************Navigation*******************/
+.nav {
+    background-color:white;
+    height: 40px;
+    position: sticky;
+    top: 0;
+    font-size:12pt;
+}
+
+.nav ul {
+    margin: 0%;
+}
+
+.nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 10px 30px 40px 40px;
+}
+
+.O {
+    padding-right:600px;
+}
+
+.nav ul li a:hover {
+    color:#ed1e79;
+}    
+
+.nav ul li a:active{
+    color: #C4B157;
+}
+
+.nav ul li a {
+    color: #2c3c54;
+}
+
+/***********************Header**************************/
+.main1  {
+    background-image: url("../images/ozio_office_bw.jpg");
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: right top;
+    padding-top: 10px;
+    background-size: 100%;
+    height: 900px;
+    width: 100%;
+    margin: none;
+    
+}
+
+.main1 h1 {font-size:133px;
+    text-shadow: 2px 2px #2c3c54;
+    position: static;
+    padding-top: 50px;
+
+}
+
+.main1 p {font-size: 36px;
+    }
+
+/************************2nd Paragraph*******************/
+.main2 {
+    padding-bottom: 130px;
+}
+
+.white {color:white;
+    font-weight: 400;
+    text-align: center;
+
+}
+.pink {color:#ed1e79;
+    font-weight: 900;
+    text-shadow: 2px 2px #2c3c54;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+/**********************Third Paragraph*******************/
+
+ul {
+    text-align: center;
+    list-style-position: inside;
+}
+
+.main3 ul {
+    font-size: 24pt;
+    padding-bottom: 150px;
+}
+
+button {
+    background-color:#ed1e79;
+    border-color:white;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 11px;
+}
+
+button:hover {
+    color:#ed1e79;
+    background: white;
+}
+
+/*********************Form**********************/
+.main4 {
+    padding-bottom: 100px;
+}
+.main4 button {
+    background-color: #2c3c54;
+    border-color:#2c3c54;
+    font-size: 14pt;
+}
+
+.T {
+    height: 20px;
+    width: 20px;
+}
+.table {
+    font-size: 18pt;
+}
+
+table {
+    margin: 0 auto;
+    padding-left: 40px;
+    border-width: 10px;
+    padding-bottom: 50px;
+}
+
+input[type=text] {
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 15px;
+    color:#ed1e79;
+    font-size: 14pt;
+}
+
+input[type=text]:focus {
+    border: 3px solid #555;
+}
+/********************Footer******************/
+
+.footer {
+    color:white;
+    font-size:8pt;
+}
